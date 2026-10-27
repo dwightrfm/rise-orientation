@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Editing the RISE Orientation</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#03070b;--card:#0b1a20;--ink:#eef6f7;--mut:rgba(238,246,247,.68);--teal:#46d9d2;--gold:#ffc46b;--line:rgba(255,255,255,.12)}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(ellipse at 50% 0%,#0d3a40 0%,var(--bg) 60%) fixed;background-color:var(--bg);color:var(--ink);font:17px/1.6 Inter,-apple-system,BlinkMacSystemFont,sans-serif}
+main{max-width:720px;margin:0 auto;padding:48px 16px 80px}
+.eye{font:600 13px/1 ui-monospace,Menlo,monospace;letter-spacing:.24em;text-transform:uppercase;color:var(--teal)}
+h1{font-size:clamp(34px,7vw,52px);line-height:1.05;letter-spacing:-.03em;margin:12px 0 14px}
+h2{font-size:22px;margin:0 0 10px}
+p{margin:0 0 12px;color:var(--mut)}
+.links{display:grid;gap:12px;margin:28px 0 36px}
+.link{display:block;text-decoration:none;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px}
+.link b{display:block;font-size:18px}
+.link span{color:var(--mut);font-size:15px;word-break:break-all}
+.link.edit{border-color:rgba(70,217,210,.55);box-shadow:0 0 0 1px rgba(70,217,210,.2),0 10px 40px -10px rgba(70,217,210,.35)}
+.step{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px 22px 12px;margin-bottom:14px}
+.step .n{display:inline-flex;width:30px;height:30px;border-radius:50%;align-items:center;justify-content:center;background:var(--teal);color:#032326;font-weight:800;margin-right:10px;font-size:15px}
+ul{margin:0 0 12px;padding-left:20px;color:var(--mut)}
+li{margin:6px 0}
+li b{color:var(--ink)}
+.note{border-left:3px solid var(--gold);padding:4px 0 4px 16px;margin:28px 0}
+.note p{color:var(--ink)}
+kbd{font:600 14px ui-monospace,Menlo,monospace;background:rgba(255,255,255,.1);border-radius:6px;padding:2px 7px}
+</style>
+</head>
+<body>
+<main>
+  <div class="eye">Team RISE</div>
+  <h1>Editing the Orientation deck</h1>
+  <p>You change the slides right on the website. No downloads, no code. Use a computer with Chrome, not a phone.</p>
+
+  <div class="links">
+    <a class="link edit" href="./?edit"><b>Edit link (bookmark this one)</b><span>dwightrfm.github.io/rise-orientation/?edit</span></a>
+    <a class="link" href="./"><b>Presenting link (send this to the team)</b><span>dwightrfm.github.io/rise-orientation</span></a>
+  </div>
+
+  <div class="step"><h2><span class="n">1</span>Open the edit link</h2>
+    <p>A bar shows at the top that says <b>Editing</b>. Use the ‹ › buttons to move between slides, or <b>All slides</b> to see every slide at once.</p></div>
+
+  <div class="step"><h2><span class="n">2</span>Make your changes</h2>
+    <ul>
+      <li><b>Words:</b> click any words and type. <kbd>Enter</kbd> starts a new line.</li>
+      <li><b>Pictures:</b> they have a gold dashed border. Click one and upload a new picture.</li>
+      <li><b>QR codes:</b> click the QR code, paste the new link, press <b>Make QR code</b>. Scan it with your phone to test it.</li>
+      <li><b>Weekly Zoom schedule</b> (slide 11): point at a session to change its day, start time (Pacific), or color. <b>+ Add session</b> adds one. The red ✕ removes one.</li>
+      <li><b>Big event</b> (slide 12): click <b>Big events</b> in the top bar. Change the name, city, and dates. The countdown follows on its own.</li>
+      <li><b>Check your work:</b> <b>Preview</b> shows the slides the way the team sees them.</li>
+    </ul></div>
+
+  <div class="step"><h2><span class="n">3</span>Press Publish</h2>
+    <p>The <b>Publish</b> button in the top corner saves everything to the live site. The site updates in 1 to 2 minutes.</p>
+    <p><b>The first time only</b>, it asks for an edit key. Paste the key Dwight sent you. Your computer remembers it after that.</p></div>
+
+  <div class="note">
+    <p><b>Made a mistake?</b> While typing, <kbd>Ctrl</kbd>+<kbd>Z</kbd> (<kbd>Cmd</kbd>+<kbd>Z</kbd> on a Mac) undoes it. After you publish, nothing is lost: every version is saved, and Dwight can bring back any earlier one.</p>
+    <p><b>Leaving with unsaved changes?</b> The page warns you first.</p>
+  </div>
+
+  <p>Presenting: open the presenting link, press <kbd>F</kbd> for full screen, and use the arrow keys.</p>
+</main>
+</body>
+</html>
