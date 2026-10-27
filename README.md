@@ -10,6 +10,9 @@ The animated Orientation deck as a website, editable from the browser.
 
 ## How editing works
 
+- Anyone, no key: edits save on their device by themselves. "My copy" downloads their version as one self-contained file. Phones and tablets tap words to edit them in a text box.
+- "Publish to team" (needs the edit key) changes the live site for everyone.
+
 - `index.html` is the whole deck and the only source of truth. The old copy in `Paul/reports/rise-orientation/` is retired.
 - `editor.js` loads only on the `?edit` link. Publish takes the newest `index.html` from GitHub, applies the changes, and commits it back, so edits never overwrite each other's words.
 - Every slide's words carry a `data-e` number and every picture a `data-img` number. Keep them when editing by hand.
